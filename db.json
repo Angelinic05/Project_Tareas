@@ -17,6 +17,14 @@
       "completed": false,
       "id": 2,
       "failed": true
+    },
+    {
+      "name": "tarea4",
+      "startDate": "2024-02-25",
+      "endDate": "2024-03-04",
+      "person": "Steven",
+      "completed": false,
+      "id": 3
     }
   ]
 }

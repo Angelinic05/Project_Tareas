@@ -70,14 +70,15 @@ function crearElementoTarea(task) {
         <p>Nombre de la tarea: ${task.name}</p>
         <p>Fecha de inicio: ${task.startDate} - Fecha final: ${task.endDate}</p>
         <p>Persona asignada: ${task.person}</p>
-        ${!task.completed ? `<button class="complete-btn" onclick="moverTarea(this.parentElement, 'completedTasks')">Completada</button>` : ""}
-        ${!task.completed ? `<button class="fail-btn" onclick="moverTarea(this.parentElement, 'failedTasks')">No Cumplida</button>` : ""}
+        ${task.completed ? '' : `<button class="complete-btn" onclick="moverTarea(this.parentElement, 'completedTasks')">Completada</button>`}
+        ${task.completed ? '' : `<button class="fail-btn" onclick="moverTarea(this.parentElement, 'failedTasks')">No Cumplida</button>`}
         <button class="delete-btn" onclick="eliminarTarea(this.parentElement)">Eliminar</button>
         <button class="edit-btn" onclick="editarTarea(this.parentElement)">Editar</button>
     `;
 
     document.getElementById(taskStatusClass).appendChild(taskElement);
 }
+
 
 
 
