@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section input, .input-section button {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-section input:focus, .input-section button:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+.tasks-section, .completed-section, .failed-section {
+    margin-bottom: 20px;
+}
+
+.task {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 4px solid #337ab7;
+}
+
+.task p {
+    margin: 5px 0;
+}
+
+.complete-btn, .fail-btn, .delete-btn, .edit-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.complete-btn {
+    background-color: #13cd13;
+    color: #fff;
+}
+
+.fail-btn {
+    background-color: #d7150e;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #ff3333;
+    color: #fff;
+}
+
+.edit-btn {
+    background-color: #0099cc;
+    color: #fff;
+}
+
+.complete-btn:hover, .fail-btn:hover, .delete-btn:hover, .edit-btn:hover {
+    opacity: 0.8;
+}
+

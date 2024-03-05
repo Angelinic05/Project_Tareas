@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "name": "tarea2",
+      "startDate": "2024-02-26",
+      "endDate": "2024-03-05",
+      "person": "Angeli Corredor",
+      "completed": true,
+      "id": 1,
+      "failed": true
+    },
+    {
+      "name": "tarea3",
+      "startDate": "2024-02-26",
+      "endDate": "2024-03-05",
+      "person": "Angeli Corredor",
+      "completed": false,
+      "id": 2,
+      "failed": true
+    }
+  ]
+}
